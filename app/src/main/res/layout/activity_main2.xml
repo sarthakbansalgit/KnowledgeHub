@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="8dp"
+        android:elevation="5dp"
+        android:padding="5dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434">
+
+        <TextView
+            android:id="@+id/ml"
+            android:layout_width="118dp"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="ML"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069">
+
+        <TextView
+            android:id="@+id/cloud"
+            android:layout_width="115dp"
+            android:layout_height="153dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="Cloud"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+
+    >
+
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="115dp"
+            android:layout_height="153dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="Hash"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
+
+    >
+
+        <TextView
+            android:id="@+id/dsa"
+            android:layout_width="115dp"
+            android:layout_height="153dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="DSA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775">
+
+        <TextView
+            android:id="@+id/webdev"
+            android:layout_width="115dp"
+            android:layout_height="153dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="Web dev"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+
+    >
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" >
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="115dp"
+            android:layout_height="153dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="App dev"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/ct"
+        android:layout_width="212dp"
+        android:layout_height="64dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:text="Contact Us"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
